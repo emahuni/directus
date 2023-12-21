@@ -150,7 +150,6 @@ router.post('/', async (req, res) => {
   const data = await permissionsService.createOne({
 	  collection: 'pages',
 	  action: 'read',
-	  role: 'c86c2761-65d3-43c3-897f-6f74ad6a5bd7',
 	  fields: ['id', 'title'],
 	  role: foundRole.id,
   });
